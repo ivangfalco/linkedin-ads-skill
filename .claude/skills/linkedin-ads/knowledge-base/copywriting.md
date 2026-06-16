@@ -37,7 +37,30 @@ On the best B2B ads, the headline text is the main visual - bold sans-serif, one
 4. **Write the image text first** - the one sentence that must stop the scroll on its own.
 5. **Write the body copy** - expand with context and proof, end on a clear next step.
 6. **Write the headline field** - support the image, don't repeat it (social proof or an outcome stat).
-7. **Audit** against [anti-ai-slop.md](anti-ai-slop.md) before it ships.
+7. **Make it read human** - run the check in the next section before it ships.
+
+## Make it read human
+Models trained on years of LinkedIn posts default to the most-imitated patterns. Readers have seen those patterns thousands of times and now flag them as machine-written - and once that flag trips, they discount even specific, true claims. Remove these:
+
+1. **Setup/reveal** - "Most people think X. They're actually Y." → State the claim directly, with a specific or a source.
+2. **Rule of three** - "The same X. The same Y. The same Z." → One concrete example beats three parallel fragments.
+3. **Contrast pivot** - "Different X. Different Y. Same Z." → Name the actual universal in one sentence with a real case.
+4. **Negation reveal** - "That's not X. It's Y." → State Y with its evidence.
+5. **Compound "not just"** - "It's not just a CRM, it's a platform." → Say what it does in plain functional terms.
+6. **Dash overload** - dashes inserted for pacing. → Use periods or commas. Short dash only, never an em dash.
+7. **Fragment stacking** - single words on their own lines ("Focus. Clarity. Results."). → Write the sentence.
+8. **"Here's the thing" / "Let me be clear" openers** → Cut the filler, make the assertion.
+9. **Triple-adjective stacking** - "dynamic, ever-evolving, fast-paced." → One precise word, or none.
+10. **"In today's [hyperbolic] world" openers** → Open with the specific observation that made it worth writing.
+11. **Mystery hooks** - "There's something most marketers miss..." → Just say the observation.
+12. **Engagement-question closers** - "What's your take?" → End on the strongest point or a real CTA.
+13. **"This is why X matters" closers** → Trust the reader; end on the implication.
+14. **Fragment chains** - short sentences strung for a beat where one flowing sentence is natural. → Write the full sentence.
+15. **Parallel-anchor pacing** - two parallel sentences, the second ending on a short contrastive anchor ("Revenue didn't.", "Few do."). → One declarative or compound sentence.
+
+**Reference voice:** write like the body copy on serious enterprise SaaS sites (Linear, Stripe, Databricks) - full declarative sentences with real subjects and verbs, specific named things, plain English over performance. Authoritative because of what's said, not how it's performed.
+
+**The check (every ad):** read it aloud. Does it sound like a real person in this industry talking? More than one dash per paragraph? Any pattern above present? Every claim point to a real source or number? If a line fails, rewrite it. If copy keeps failing, the underlying idea is weak and the words are leaning on structure to compensate - go back to the insight.
 
 ## Common mistakes
 - Brand language instead of customer language.

@@ -33,8 +33,7 @@ Read the relevant file before advising.
 | File | Use when |
 |------|----------|
 | [running-linkedin-ads.md](knowledge-base/running-linkedin-ads.md) | Fundamentals, account structure, full-funnel framework, launch checklist |
-| [copywriting.md](knowledge-base/copywriting.md) | Writing ad copy - headline formulas, voice of customer, the process |
-| [anti-ai-slop.md](knowledge-base/anti-ai-slop.md) | Auditing any copy before it ships - the patterns to remove |
+| [copywriting.md](knowledge-base/copywriting.md) | Writing ad copy - headline formulas, voice of customer, the process, and making copy read human |
 | [creative-strategy.md](knowledge-base/creative-strategy.md) | Choosing creative angles by awareness stage |
 
 To generate the creative images themselves, use the `creative` skill.
@@ -44,5 +43,5 @@ To generate the creative images themselves, use the `creative` skill.
 2. Organize campaigns and analysis around the full-funnel framework (TOF/MOF/BOF).
 3. Keep Audience Expansion and the LinkedIn Audience Network OFF. Flag them if found on.
 4. Recommend a weekly demographic check as part of optimization.
-5. All ad copy clears the anti-slop audit before it ships.
+5. All ad copy clears the human-readability check in copywriting.md before it ships.
 6. Create campaigns and ads PAUSED. Confirm with the user before enabling spend.

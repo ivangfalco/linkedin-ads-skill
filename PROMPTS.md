@@ -27,7 +27,7 @@ Run these once your account is connected (`/onboarding` first). Paste as-is or a
 
 ## Copywriting
 - "Write three headline options for [audience] at the TOF stage, using the formulas."
-- "Here's my draft ad copy - audit it for AI slop and rewrite the weak parts."
+- "Here's my draft ad copy - rewrite anything that reads machine-written or weak."
 - "Turn these customer quotes into a stat-interrupt headline."
 
 ## Creative

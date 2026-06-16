@@ -40,7 +40,7 @@ Follow this every time. One idea per creative.
 
 4. **Generate 3 variations.** Different background/accent or headline emphasis - not minor tweaks. Single image only.
 5. **Check it.** Headline spelled correctly and legible at small size? On brand? One message only? If not, regenerate.
-6. **Audit the copy** against `linkedin-ads/knowledge-base/anti-ai-slop.md` before it goes near an ad.
+6. **Check the copy** against the writing rules in `linkedin-ads/knowledge-base/copywriting.md` before it goes near an ad.
 7. **Export** the chosen image (PNG/JPG) and save the path.
 8. **Push it live (paused):**
    ```bash
@@ -53,5 +53,5 @@ Follow this every time. One idea per creative.
 - Single-image format only.
 - The headline carries the ad. Spend the effort there, in the copy.
 - Three genuinely different concepts beat ten near-duplicates.
-- Every line of text clears the anti-slop audit.
+- Every line of text clears the writing check in copywriting.md.
 - The ad is created PAUSED. The user reviews it in Campaign Manager before enabling.

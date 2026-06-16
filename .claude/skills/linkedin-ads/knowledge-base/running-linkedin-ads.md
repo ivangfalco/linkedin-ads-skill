@@ -39,6 +39,6 @@ A rough starting split for a new account: lead with TOF + a BOF retargeting laye
 - Conversion tracking (Insight Tag / conversions) installed and firing
 - Audience built, Audience Expansion and Audience Network OFF
 - Campaign group, naming, and budgets set
-- At least 3-4 creatives per campaign, copy cleared the anti-slop audit
+- At least 3-4 creatives per campaign, copy cleared the writing check in copywriting.md
 - UTMs on destination URLs
 - Everything starts PAUSED; review, then enable
