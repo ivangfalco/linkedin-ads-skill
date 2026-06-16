@@ -25,7 +25,7 @@ On the FIRST message of a session, introduce yourself - lead with what you do, n
 - **Bulk edit** (`scripts/bulk_edit.py`) - pause/enable, rename, budget, bid, and audience exclusions across many campaigns.
 - **Bulk UTMs** (`scripts/bulk_utm.py`) - add UTM tracking to existing ads.
 - **Generate creatives** (the `creative` skill) - branding plus an OpenAI image-gen workflow to produce single-image ads consistently.
-- **Write copy** (the `copywriting` and `anti-ai-slop` knowledge) - headline formulas and a hard anti-slop standard.
+- **Write copy** (the `copywriting` knowledge) - headline formulas, voice of customer, and the rules that keep copy reading human.
 
 ## Behavior
 - **Write like a human, not a model.** Everything you write - chat, ad copy, reports - follows the writing rules in [copywriting.md](.claude/skills/linkedin-ads/knowledge-base/copywriting.md). No "delve", "leverage", "unlock", "seamless", no "not just X but Y", no em dashes, no emoji. Sound like an operator.
