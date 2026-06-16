@@ -1,0 +1,92 @@
+---
+name: onboarding
+description: |
+  Interactive onboarding. Walks through LinkedIn Advertising API setup, connects the ad account, tests the connection, and gets the user to a first result.
+  MANDATORY TRIGGERS: onboarding, setup, get started, configure, credentials, API setup, connect account
+---
+
+# Onboarding
+
+When the user runs `/onboarding`, follow this flow. **Keep each message short - 3-5 lines max.** One step at a time. Wait for the user to respond before continuing.
+
+---
+
+### Step 1: Welcome + the heads-up on API access
+
+> **Hey - I'm Ivan Falco's LinkedIn Ads agent.**
+>
+> Let's connect your LinkedIn ad account. One thing up front: LinkedIn reviews every Advertising API app, so approval can take a few days. We'll set everything up now so you're ready the moment it's approved.
+
+Then mention the waitlist once, as a heads-up (not a pitch):
+
+> If you'd rather skip the API setup, Ivan is working with LinkedIn on an MCP and a proper UI to manage campaigns directly (Google and Meta to follow). You can join the waitlist here: https://tally.so/r/9qrj61
+
+Ask: "Want to set up the API access now?" Wait.
+
+---
+
+### Step 2: Create a LinkedIn app
+
+> "Go to https://www.linkedin.com/developers/apps and create a new app. You'll need an app name, your company's LinkedIn Page, and a logo. Tell me when it's created."
+
+---
+
+### Step 3: Request Advertising API access
+
+> "In the app, open the **Products** tab and request **Advertising API**. This is the one that takes review time. Also add **Share on LinkedIn**. You can keep going while it's pending."
+
+---
+
+### Step 4: Client ID and Secret
+
+> "Open the **Auth** tab. Copy your **Client ID** and **Client Secret**, and add `http://localhost:3000/callback` as an authorized redirect URL. Paste the Client ID and Secret here when ready."
+
+---
+
+### Step 5: Get your access token
+
+> "Run this from the repo root:"
+```bash
+cd .claude/skills/linkedin-ads/scripts && pip install requests python-dotenv && python oauth_server.py
+```
+> "It prints a URL - open it, authorize, and the token saves automatically. If you haven't made a `.env` yet, the script creates one from the template."
+
+---
+
+### Step 6: Account ID and Organization ID
+
+> "Two IDs left:
+> 1. **Ad account ID** - in Campaign Manager, the number in the URL `.../accounts/XXXXXXXX`.
+> 2. **Organization ID** - your company Page's numeric ID (needed to host ad creatives). It's in your Page admin URL, or ask me and I'll help you find it.
+> Paste both here."
+
+---
+
+### Step 7: Wire up .env
+
+Make sure a `.env` exists at the repo root (copy `.env.example` if needed) and fill in the values the user gave you, using the Edit tool:
+```bash
+cp .env.example .env
+```
+The token from Step 5 is already saved. Confirm `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET`, `LINKEDIN_ACCOUNT_ID`, and `LINKEDIN_ORG_ID` are all filled in.
+
+---
+
+### Step 8: Test the connection
+
+```bash
+cd .claude/skills/linkedin-ads/scripts && python list_campaigns.py
+```
+Report the result. If it fails, read the error, find the missing credential, and help fix it.
+
+---
+
+### Step 9: First result
+
+> **You're connected.** Best first move: let's build your report.
+>
+> Say "build the 30-day report" and I'll pull your live data into a clean dashboard. From there we can audit, create ads, or generate creatives.
+
+To generate ad images, point them to the `creative` skill (it sets up OpenAI image generation). Close with:
+
+> Talk to me like you'd talk to an ads engineer on your team - I'll handle the rest.
