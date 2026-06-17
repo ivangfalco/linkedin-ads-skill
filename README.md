@@ -2,6 +2,8 @@
 
 **Run your LinkedIn Ads like an ads engineer - free.** This is a preview of the system my team uses to run LinkedIn Ads for B2B clients. It connects Claude Code to your ad account so you can report, build campaigns and ads, run bulk edits, and generate creatives and copy, all in plain English. Built from running $100k+/month in B2B LinkedIn ad spend.
 
+> **Important:** this runs in **Claude Code on your own computer** - the `claude` CLI in your terminal, or the Claude Code desktop app (Local mode). It does **not** work in the Claude chat app (claude.ai / the Claude desktop chat), which can't run scripts on your machine. New to Claude Code? Install it: https://code.claude.com/docs
+
 ## Built by
 
 **Ivan Falco** - I do ads engineering: I help B2B companies scale their paid motion with AI-native systems - ABM and ABM 1:1, syncing ad audiences with outbound, AI-native creative, and scaling accounts like an engineer. Head of Growth at [ColdIQ](https://coldiq.com).

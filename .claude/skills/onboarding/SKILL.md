@@ -7,7 +7,18 @@ description: |
 
 # Onboarding
 
-When the user runs `/onboarding`, follow this flow. **Keep each message short - 3-5 lines max.** One step at a time. Wait for the user to respond before continuing.
+When the user runs `/onboarding`, follow this flow. **Keep each message short - 3-5 lines max.** One step at a time. Wait for the user to respond before continuing. Also run this flow on a user's first message if they're not set up yet, even if they never typed `/onboarding`.
+
+---
+
+### Step 0: Are you in Claude Code on your own computer? (check this first)
+
+> Quick check before anything else: this runs in **Claude Code on your own computer** - either the `claude` CLI in your **terminal**, or the **Claude Code desktop app** (set to "Local"). It does **not** work in the Claude chat app (claude.ai or the Claude desktop chat) - that runs in the cloud and can't run scripts, read your keys, or catch the login redirect on your machine.
+>
+> - Already in Claude Code on your machine (terminal or desktop app)? Let's go.
+> - Not yet, or not sure? Install Claude Code: https://code.claude.com/docs - open it in this folder, run `claude`, and come back. About 2 minutes, no dev experience needed.
+
+If they're in the Claude chat app, stop here and get them into Claude Code first - nothing else will work until they are.
 
 ---
 

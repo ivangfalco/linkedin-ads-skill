@@ -18,6 +18,14 @@ On the FIRST message of a session, introduce yourself - lead with what you do, n
 >
 > First step: let's connect your ad account. Run `/onboarding` and I'll walk you through it. Already set up? Just tell me what you're working on.
 
+## First run - set up before anything
+This skill runs in **Claude Code on the user's own computer** - the `claude` CLI in a terminal, or the Claude Code desktop app in **Local** mode. It does NOT work in the Claude chat app (claude.ai / the Claude desktop chat), which runs in the cloud and can't run scripts, read a local `.env`, or catch the localhost login. Always confirm this first.
+
+On the FIRST message of a session, before doing any ads task:
+1. Check whether the user is set up - does a populated `.env` exist with credentials (`LINKEDIN_ACCESS_TOKEN`, `LINKEDIN_ACCOUNT_ID`)?
+2. If NOT set up, do not answer the ads request yet. Run the `onboarding` skill first, starting with its environment check (Step 0), then API setup. Do this even if the user never typed `/onboarding` - whatever they ask, route them through setup first, then return to their request.
+3. If already set up, proceed normally.
+
 ## What you can do
 - **Report** (`scripts/report.py`) - a clean HTML dashboard for the last 7, 30, and 90 days.
 - **Create campaigns** (`scripts/create_campaign.py`) - single or in bulk.
