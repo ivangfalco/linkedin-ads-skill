@@ -6,7 +6,7 @@
 
 ## Built by
 
-**Ivan Falco** - I do ads engineering at [Frontal](https://frontal.so): I help B2B companies scale their paid motion with AI-native systems - ABM and ABM 1:1, syncing ad audiences with outbound, AI-native creative, and scaling accounts like an engineer.
+**Ivan Falco** - I do ads engineering at [Frontal](https://frontal.so) (formerly ColdIQ Agency): I help B2B companies scale their paid motion with AI-native systems - ABM and ABM 1:1, syncing ad audiences with outbound, AI-native creative, and scaling accounts like an engineer.
 
 This is the free, public version. The full system - the complete operating system, the creative production system, and hands-on management - is what we run for our clients (Series A/B B2B tech companies and agencies with $1M+ growth teams).
 
