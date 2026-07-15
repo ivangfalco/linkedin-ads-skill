@@ -6,31 +6,31 @@
 
 ## Built by
 
-**Ivan Falco** - I do ads engineering: I help B2B companies scale their paid motion with AI-native systems - ABM and ABM 1:1, syncing ad audiences with outbound, AI-native creative, and scaling accounts like an engineer. Head of Growth at [ColdIQ](https://coldiq.com).
+**Ivan Falco** - I do ads engineering at [Frontal](https://frontal.so): I help B2B companies scale their paid motion with AI-native systems - ABM and ABM 1:1, syncing ad audiences with outbound, AI-native creative, and scaling accounts like an engineer.
 
 This is the free, public version. The full system - the complete operating system, the creative production system, and hands-on management - is what we run for our clients (Series A/B B2B tech companies and agencies with $1M+ growth teams).
 
-**Want a hand with your account?** I run a free LinkedIn Ads teardown. [Book a call](https://calendly.com/ivan-coldiq/call-with-ivan-falco-1) or find me on [LinkedIn](https://www.linkedin.com/in/ivanfalco/).
+**Want a human to look at your setup?** Connect with me on LinkedIn (send a note): https://www.linkedin.com/in/ivanfalco/
 
 ---
 
 ## What's inside
 
-**Scripts (connect to your LinkedIn ad account):**
-- `report.py` - clean HTML dashboard for the last 7, 30, and 90 days
-- `create_campaign.py` - create campaigns, single or bulk
-- `create_image_ad.py` - create single-image ads, single or bulk (always created paused)
-- `bulk_edit.py` - pause/enable, rename, budget, bid, and audience exclusions across many campaigns at once
-- `bulk_utm.py` - add UTM tracking to existing ads in bulk
-- `list_campaigns.py` - list campaigns and their IDs
+**Scripts (connect to your LinkedIn ad account) - everything PAUSED by default:**
+- **Report / analyze:** `report.py` (7/30/90-day HTML), `account_overview.py`, `get_campaign_performance.py`, `get_demographics.py`, `list_campaigns.py` / `list_creatives.py` / `list_lead_forms.py`
+- **Create:** `create_campaign_group.py`, `create_campaign.py`, and every ad format - `create_image_ad.py`, `create_document_ad.py`, `create_video_ad.py`, `create_carousel_ad.py`, `create_thought_leader_ad.py` - plus `create_lead_gen_form.py`
+- **Manage:** `bulk_edit.py`, `bulk_utm.py`, `update_campaign.py`, `manage_bids.py`, `attach_conversions.py`
+- **Audiences:** `upload_audience.py` (matched contact/company audiences)
+
+Full index with args + examples: [scripts/README.md](.claude/skills/linkedin-ads/scripts/README.md).
 
 **Skills (no API needed):**
-- **Creative generation** - your branding plus an OpenAI image-gen workflow to produce single-image creatives consistently
-- **Copywriting** - six headline formulas, voice-of-customer sourcing, and the writing process
-- **Anti-AI-slop** - a hard standard (the patterns readers recognize and distrust) so your copy reads human
+- **Creative generation** - your branding plus an image-gen workflow to produce creatives consistently
+- **Copywriting** - headline formulas, voice-of-customer sourcing, and the writing process
 
-**Knowledge:**
-- How to run LinkedIn Ads: fundamentals, the full-funnel framework, structure, and a launch checklist
+**Knowledge base (17 files + a full API reference):**
+- The full-funnel framework, campaign structure, audience sizing, bidding, B2B benchmarks, every ad format (image, document, video, carousel, conversation, CTV, thought-leader), ABM, landing pages, scaling, audit + launch checklists, and the copy-audit framework
+- Plus `ads-foundations/` - the cross-cutting frameworks (demand lifecycle, budget allocation, measurement, and the no-AI-slop writing style that governs all copy)
 
 **Prompt library** - see [PROMPTS.md](PROMPTS.md).
 
@@ -73,4 +73,4 @@ Source-available: MIT + [Commons Clause](https://commonsclause.com/) - see [LICE
 
 ---
 
-*Built by [Ivan Falco](https://www.linkedin.com/in/ivanfalco/) at [ColdIQ](https://coldiq.com). Provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*
+*Built by [Ivan Falco](https://www.linkedin.com/in/ivanfalco/) at [Frontal](https://frontal.so). Provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*

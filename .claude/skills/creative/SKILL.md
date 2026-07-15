@@ -50,7 +50,7 @@ Follow this every time. One idea per creative.
    ```
 
 ## Rules
-- Single-image format only.
+- This skill covers single-image creative generation. For document, video, carousel, and thought-leader ads, use the creation scripts in the `linkedin-ads` skill (`create_document_ad.py`, `create_video_ad.py`, `create_carousel_ad.py`, `create_thought_leader_ad.py`).
 - The headline carries the ad. Spend the effort there, in the copy.
 - Three genuinely different concepts beat ten near-duplicates.
 - Every line of text clears the writing check in copywriting.md.
